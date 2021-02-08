@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">   
+    <link rel="stylesheet" href="../CSS/index.css">
+    <title>Covid Browser</title> 
+</head>
+
+<body>
+    <div class='main'>
+        <h1>Covid Browser</h1>
+        
+        <div id='x'>
+            <input type="text" id='countryInput'>
+            <button id="btn" onclick="getData()">Search</button> 
+        </div>
+
+        <table>
+            <tr>
+                <th>Country:</th>
+                <td id='country'></td>
+            </tr>
+            <tr>
+                <th>Confirmed:</th>
+                <td id='cases'></td>
+            </tr>
+            <tr>
+                <th>Critical:</th>
+                <td id='critical'></td>
+            </tr>
+            <tr>
+                <th>Deaths:</th>
+                <td id='deaths'></td>
+            </tr>
+            <tr>
+                <th>Recovered:</th>
+                <td id='recovered'></td>
+            </tr>
+        </table>
+    </div>
+</body>
+
+<script  type="text/javascript" src="../JS/index.js"></script>
+</html>
